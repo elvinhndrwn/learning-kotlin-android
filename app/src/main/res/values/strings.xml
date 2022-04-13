@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Aplikasi Serba Guna</string>
+    <string-array name="dropdown_operasi">
+        <item>*</item>
+        <item>/</item>
+        <item>+</item>
+        <item>-</item>
+    </string-array>
 </resources>

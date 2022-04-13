@@ -14,4 +14,8 @@ class MenuActivity : AppCompatActivity() {
     fun moveToPenentuGenerasi(view: View) {
         startActivity(Intent(this, MainActivity::class.java))
     }
+
+    fun moveToKalkulator(view: View) {
+        startActivity(Intent(this, KalkulatorActivity::class.java))
+    }
 }
