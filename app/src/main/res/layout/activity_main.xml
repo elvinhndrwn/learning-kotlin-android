@@ -18,8 +18,20 @@
         android:id="@+id/btn_klik"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="Click Me!" />
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/blue"
+        android:text="Cek" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/yellow"
+        android:text="Kembali"
+        android:onClick="moveToMenu"/>
 
     <TextView
         android:id="@+id/tv_hasil"
